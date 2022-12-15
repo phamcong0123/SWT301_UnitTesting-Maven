@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.congpham.mathutil.core.MathUtilTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s - in org.congpham.mathutil.core.MathUtilTest
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.123 s <<< FAILURE! - in org.congpham.mathutil.core.MathUtilTest
+org.congpham.mathutil.core.MathUtilTest.testFactorialGivenRightArgumentReturnsWell(int, long)[7]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <721> but was: <720>
+	at org.congpham.mathutil.core.MathUtilTest.testFactorialGivenRightArgumentReturnsWell(MathUtilTest.java:46)
+

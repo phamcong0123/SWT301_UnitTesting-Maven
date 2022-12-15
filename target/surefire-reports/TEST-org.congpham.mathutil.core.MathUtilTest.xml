@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.congpham.mathutil.core.MathUtilTest" time="0.062" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.congpham.mathutil.core.MathUtilTest" time="0.123" tests="9" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\PreCN6\math-util-maven-se1608\target\test-classes;D:\PreCN6\math-util-maven-se1608\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.class.path" value="D:\PreCN6\math-util-maven-se1608\target\test-classes;D:\PreCN6\math-util-maven-se1608\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,8 +18,8 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire9059263265333157695\surefirebooter8943933715918074494.jar C:\Users\Admin\AppData\Local\Temp\surefire9059263265333157695 2022-12-14T23-40-57_994-jvmRun1 surefire319729069514164955tmp surefire_03794032696153050431tmp"/>
-    <property name="surefire.test.class.path" value="D:\PreCN6\math-util-maven-se1608\target\test-classes;D:\PreCN6\math-util-maven-se1608\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire4516862885706152699\surefirebooter8915162128180593456.jar C:\Users\Admin\AppData\Local\Temp\surefire4516862885706152699 2022-12-15T02-01-19_991-jvmRun1 surefire7490030705503937500tmp surefire_03612869887529731173tmp"/>
+    <property name="surefire.test.class.path" value="D:\PreCN6\math-util-maven-se1608\target\test-classes;D:\PreCN6\math-util-maven-se1608\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Admin"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire9059263265333157695\surefirebooter8943933715918074494.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire4516862885706152699\surefirebooter8915162128180593456.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,6 +46,7 @@
     <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2.1"/>
     <property name="java.version" value="1.8.0_321"/>
     <property name="user.dir" value="D:\PreCN6\math-util-maven-se1608"/>
     <property name="os.arch" value="amd64"/>
@@ -60,6 +61,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testFactorialGivenWrongArgumentReturnsException" classname="org.congpham.mathutil.core.MathUtilTest" time="0.031"/>
-  <testcase name="testFactorialGivenRightArgumentReturnsWell" classname="org.congpham.mathutil.core.MathUtilTest" time="0"/>
+  <testcase name="testFactorialGivenWrongArgumentReturnsException" classname="org.congpham.mathutil.core.MathUtilTest" time="0.028"/>
+  <testcase name="testFactorialGivenRightArgumentReturnsWell" classname="org.congpham.mathutil.core.MathUtilTest" time="0.002"/>
+  <testcase name="testFactorialGivenRightArgumentReturnsWell(int, long)[1]" classname="org.congpham.mathutil.core.MathUtilTest" time="0.021"/>
+  <testcase name="testFactorialGivenRightArgumentReturnsWell(int, long)[2]" classname="org.congpham.mathutil.core.MathUtilTest" time="0.001"/>
+  <testcase name="testFactorialGivenRightArgumentReturnsWell(int, long)[3]" classname="org.congpham.mathutil.core.MathUtilTest" time="0.002"/>
+  <testcase name="testFactorialGivenRightArgumentReturnsWell(int, long)[4]" classname="org.congpham.mathutil.core.MathUtilTest" time="0.002"/>
+  <testcase name="testFactorialGivenRightArgumentReturnsWell(int, long)[5]" classname="org.congpham.mathutil.core.MathUtilTest" time="0.001"/>
+  <testcase name="testFactorialGivenRightArgumentReturnsWell(int, long)[6]" classname="org.congpham.mathutil.core.MathUtilTest" time="0.002"/>
+  <testcase name="testFactorialGivenRightArgumentReturnsWell(int, long)[7]" classname="org.congpham.mathutil.core.MathUtilTest" time="0.003">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <721> but was: <720>
+	at org.congpham.mathutil.core.MathUtilTest.testFactorialGivenRightArgumentReturnsWell(MathUtilTest.java:46)
+]]></failure>
+  </testcase>
 </testsuite>
